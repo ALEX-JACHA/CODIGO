@@ -12,7 +12,14 @@
                 <label for="inputNombre">Nombre Completo: </label> 
             </td>
             <td>
-                <input type="text" id="inputNombre" placeholder="Ingrese nombre completo" required/>
+                <input 
+                type="text" 
+                id="inputNombre" 
+                placeholder="Ingrese nombre completo"
+                pattern="[a-z]{1,15}"
+                minlength="4"
+                maxlength="7"
+                required/>
             </td>
         </tr>
 
@@ -21,7 +28,9 @@
                 <label for="inputEdad">Edad: </label>
             </td>
             <td>
-                <input type="number" id="inputEdad" placeholder="Ingrese su edad">
+                <input type="number" id="inputEdad" placeholder="Ingrese su edad"
+                min="4"
+                max="10">
             </td>
         </tr>
         <tr>
@@ -87,7 +96,12 @@
                 <label for="inputPassword">Password</label>
             </td>
             <td>
-                <input type="password" id="inputPassword">
+                <input 
+                type="password" 
+                id="inputPassword"
+                pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+                title="Necesitas una mayuscula, una minuscula y tu contraseña no debe ser menor a 8"
+                required>
             </td>
         </tr>
 
