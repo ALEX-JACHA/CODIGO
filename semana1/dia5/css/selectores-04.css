@@ -1,0 +1,31 @@
+body{
+font-family: 'Indie Flower', cursive;
+}
+/* el nth-chil obedece a una posicion */
+li:nth-child(2){
+    color: blue;
+}
+
+/* cambia el primer elemento */
+li:first-child{
+    color: red;
+}
+
+/* cambia el ultimo elemento */
+li:last-child{
+    color: salmon;
+}
+
+/* impar */
+tbody tr:nth-child(odd){
+background: mediumvioletred;
+}
+
+/* par */
+tbody tr:nth-child(even){
+    background: red;
+}
+
+thead{
+    background: seagreen;
+}

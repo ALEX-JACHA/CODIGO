@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@400;700&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    border: 2px solid #ae7eca;
+    width: 500px;
+    height: 600px;
+    margin: 80px auto;
+    border-radius: 20px;
+    padding: 100px;
+    font-family: 'Balsamiq Sans', cursive; 
+}
+
+h1{
+    color: #5D46A0;
+}
+h5{
+    color: #5D46A0;
+    font-weight: 100;
+}
+
+.formulario {
+    
+    border: 2px solid #ffffff;
+    /* auto distribuye los espacios por igual */
+    width: 300px;
+    height: 200px;
+    margin: 20px auto; 
+ 
+}
+
+.formulario__email {
+    width: 100%;
+    padding: 5px 8px;
+    border: none;
+    outline: none;
+    border-left: 4px solid #ae7eca;
+    background-color: #ececec;
+    border-radius: 2px;
+    
+}
+
+.formulario__Email {
+    color: #5D46A0;
+    font-size: 11px;
+    font-weight: 900;
+}
+
+.formulario__Password{
+    color: #5D46A0;
+    font-size: 11px;
+    font-weight: 900;
+}
+
+.formulario__password {
+    width: 100%;
+    padding: 5px 8px;
+    border: none;
+    outline: none;
+    border-left: 4px solid #ae7eca;
+    background-color: #ececec;
+    border-radius: 2px;
+}
+
+.formulario__Remenber {
+    color: #5D46A0;
+    padding-right: 30px;
+    font-size: 11px;
+    
+}
+
+.formulario__Forget {
+    color: #5D46A0;
+    padding-left: 80px;
+    font-size: 11px;
+    
+}
+
+.formulario__submit__in{
+    border: none;
+    padding: 10px;
+    color: white;
+    background-color: #5D46A0;
+    border-radius: 3px;
+    margin-top: 10px;
+    padding: 10px 25px;
+    margin-left: 0px;  
+   
+}
+
+.formulario__submit__up{
+    border: 1px solid #5D46A0;
+    padding: 10px;
+    color: #5D46A0;
+    background-color: white;
+    border-radius: 3px;
+    margin-top: 10px;    
+    padding: 10px 25px;
+    margin-left: 100px;
+    
+}
