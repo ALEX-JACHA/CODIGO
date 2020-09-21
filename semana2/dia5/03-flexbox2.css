@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.main{
+    display: flex;
+    border: 1px solid blue;
+    height: 400px;
+    /* justify-content */
+    /* alinea los elementos en el eje principal */
+    /* cual es el eje principal? */
+    /* -cuando "flex-direccion:row" el eje principal es x */
+    /* -cuando "flex-direccion:colum" el eje principal es y */
+    justify-content: space-evenly;
+    /* justify-content: space-between; coloca los elementos un poco mas separados */
+    /* center, space-between, space-around, space-evently */
+    align-items: center;
+    /* align-items: alinea los elementos en el eje secundario */
+    /* en vez de center se puede colocar flex-end */
+}
+
+.main__formulario{
+    width: 600px;
+    border: 1px solid red;
+}
